@@ -25,7 +25,7 @@ export const requestLocationPermission = async (): Promise<PermissionStatus> => 
     // para activarla
     if(status === 'blocked') {
         await openSettings();
-        //TODO: return await checkLocationPermission();
+        return await checkLocationPermission();
     }
 
     return permissionMapper[status] ?? 'unavailable';
