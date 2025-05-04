@@ -51,5 +51,20 @@
 	<array>
 		<string>Ionicons.ttf</string>
 	</array>
+
+	<!-- 🚨 Keep only the permissions specified in `setup_permissions` 🚨 -->
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>We need your location to show you on the map</string>
+
+	<key>NSLocationTemporaryUsageDescriptionDictionary</key>
+	<dict>
+		<key>YOUR-PURPOSE-KEY</key>
+		<string>We need your location to show you on the map</string>
+	</dict>
+
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>We need your location to show you on the map</string>
+
+	
 </dict>
 </plist>
